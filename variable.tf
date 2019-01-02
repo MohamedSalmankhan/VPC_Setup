@@ -5,7 +5,6 @@ variable "vpc-cidr-block" {
   default = "10.10.0.0/16"
 }
 variable "azs-count" {
-  default = 2
 }
 variable "vpc-nametag" {
   default = "Ebiz_Terra_vpc"
