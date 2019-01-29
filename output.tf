@@ -11,7 +11,7 @@ output "Internet-gatewayID" {
   value = "${aws_internet_gateway.IG.id}"
 }
 output "Nat-gatewayID" {
-  value = "${aws_nat_gateway.NG.*.id}"
+  value = "${aws_nat_gateway.NG.id}"
 }
 output "public-routeID" {
   value = "${aws_route_table.route_IG.id}"
