@@ -1,10 +1,10 @@
 variable "region" {
   default = "us-east-1"
 }
-variable "vpc-cidr-block" {
+variable "vpc_cidr_block" {
   default = "10.10.0.0/16"
 }
-variable "azs-count" {
+variable "azs_count" {
 }
 variable "vpc-nametag" {
   default = "Ebiz_Terra_vpc"
